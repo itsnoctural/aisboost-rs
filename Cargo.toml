@@ -1,0 +1,12 @@
+[package]
+name = "aisboost"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.8.1", features = ["macros"] }
+tokio = { version = "1.43", features = ["full"] }
+serde = "1.0"
+headers = "0.4"
+libsql = "0.6"
+chrono = "0.4"
